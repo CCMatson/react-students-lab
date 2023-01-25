@@ -7,10 +7,9 @@ const Score = ({ scores }) => {
 
         return (
 
-          <div key={score.score}>
+          <div className='scores' key={score.score}>
             <p> Quiz date: {score.date}  </p>
             <p> Quiz score: {score.score}</p>
-          
           </div>
 
 

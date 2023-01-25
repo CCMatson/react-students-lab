@@ -2,9 +2,22 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.scores {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: bisque;
+  border: 2px solid green;
+  margin: 10px;
+}
+
+.card{
+  background-color: darkseagreen;
+  border: black 2px solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +45,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

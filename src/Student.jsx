@@ -4,7 +4,7 @@ import Scores from "./Scores";
 const Student = ({student}) => {
   return ( 
 <>
-<div>
+<div className='card'>
   <h1>{student.name}</h1> 
   {student.bio}
   < Scores scores={student.scores} />
