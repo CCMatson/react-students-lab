@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: flex;
 }
 
 div.scores {
@@ -14,6 +15,7 @@ div.scores {
 .card{
   background-color: darkseagreen;
   border: black 2px solid;
+  width: 50%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
